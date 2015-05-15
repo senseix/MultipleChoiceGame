@@ -10,15 +10,20 @@ public class MultipleChoice : MonoBehaviour {
 
 
 	// Use this for initialization
-	void Start () 
+	void Start ()
 	{
 		NextProblem ();
+	}
+
+	void OnEnable()
+	{
+		UpdateDisplay ();
 	}
 	
 	// Update is called once per frame
 	void Update () 
 	{
-	
+
 	}
 
 	private void NextProblem()
@@ -36,12 +41,25 @@ public class MultipleChoice : MonoBehaviour {
 	private void UpdateAnswers()
 	{
 		availableAnswers.Clear ();
-		ProblemPart[] wrongAnswers = ThinksyPlugin.GetMostRecentProblemDistractors(answerButtonTexts.Length-1);
+		ProblemPart[] wrongAnswers = new ProblemPart[answerButtonTexts.Length-1];
+
+		try
+		{
+			wrongAnswers = ThinksyPlugin.GetMostRecentProblem().GetDistractors(wrongAnswers.Length);
+		}
+		catch
+		{
+			for (int i = 0; i < wrongAnswers.Length; i++) 
+			{
+				wrongAnswers [i] = ThinksyPlugin.GetMostRecentProblem().GetDistractor();
+			}
+		}
+
 		foreach (ProblemPart wrongAnswer in wrongAnswers)
 		{ //add the number of buttons minus one wrong answers
 			availableAnswers.Add(wrongAnswer);
 		}
-		availableAnswers.Add (ThinksyPlugin.GetCurrentCorrectAnswerPart());
+		availableAnswers.Add (ThinksyPlugin.GetMostRecentProblem().GetCurrentCorrectAnswerPart());
 		//add the one right answer
 		
 		Shuffle (availableAnswers);
@@ -63,17 +81,22 @@ public class MultipleChoice : MonoBehaviour {
 
 	private void UpdateButtons ()
 	{
-		char[] letters = new char[]{'A', 'B', 'C', 'D', 'E'};
+		//char[] letters = new char[]{'A', 'B', 'C', 'D', 'E'};
 		for (int i = 0; i < answerButtonTexts.Length; i++)
 		{ //set button text
+			if (i >= availableAnswers.Count)
+			{
+				Debug.LogWarning("Not enough distractors");
+				return;
+			}
 			ProblemPart part = (ProblemPart)availableAnswers[i];
-			answerButtonTexts[i].text = "(" + letters[i] + ") " + part.GetString();
+			answerButtonTexts[i].text = part.GetString(); //"(" + letters[i] + ") " + 
 		}
 	}
 
 	private void SubmitAnswers()
 	{
-		if (ThinksyPlugin.SubmitMostRecentProblemAnswer())
+		if (ThinksyPlugin.GetMostRecentProblem().SubmitAnswer())
 			AudioManager.audioManager.PlaySuccess();
 		else
 			AudioManager.audioManager.PlayFailure();
@@ -82,7 +105,7 @@ public class MultipleChoice : MonoBehaviour {
 
 	public void ButtonClick(int choiceIndex)
 	{
-		ThinksyPlugin.AddGivenAnswerPartToMostRecentProblem ((ProblemPart)availableAnswers [choiceIndex]);
+		ThinksyPlugin.GetMostRecentProblem().AddGivenAnswerPart((ProblemPart)availableAnswers [choiceIndex]);
 		if (ThinksyPlugin.AllAnswerPartsGiven())
 		{
 			SubmitAnswers();
