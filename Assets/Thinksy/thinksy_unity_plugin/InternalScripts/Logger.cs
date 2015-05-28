@@ -51,7 +51,7 @@ namespace Senseix
 
 		public static void BasicLog(string extraLog)
 		{
-			Debug.Log (extraLog);
+			//Debug.Log (extraLog);
 			LogText(System.Environment.NewLine + "--- BASIC LOG ---" + 
 								System.Environment.NewLine + extraLog + System.Environment.NewLine);
 		}
@@ -61,6 +61,7 @@ namespace Senseix
 			File.AppendAllText (GetLogPath(), logString);
 			if (new System.IO.FileInfo (GetLogPath ()).Length > deleteThreshhold)
 				File.Delete (GetLogPath ());
+			UnityEngine.iOS.Device.SetNoBackupFlag (GetLogPath ());
 		}
 	}
 }

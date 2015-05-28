@@ -1,0 +1,1023 @@
+fileFormatVersion: 2
+guid: a218539abe6d02a489eaaf678f269867
+timeCreated: 1431718765
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mastery_level_sprite_450x300_0
+    21300002: mastery_level_sprite_450x300_1
+    21300004: mastery_level_sprite_450x300_2
+    21300006: mastery_level_sprite_450x300_3
+    21300008: mastery_level_sprite_450x300_4
+    21300010: mastery_level_sprite_450x300_5
+    21300012: mastery_level_sprite_450x300_6
+    21300014: mastery_level_sprite_450x300_7
+    21300016: mastery_level_sprite_450x300_8
+    21300018: mastery_level_sprite_450x300_9
+    21300020: mastery_level_sprite_450x300_10
+    21300022: mastery_level_sprite_450x300_11
+    21300024: mastery_level_sprite_450x300_12
+    21300026: mastery_level_sprite_450x300_13
+    21300028: mastery_level_sprite_450x300_14
+    21300030: mastery_level_sprite_450x300_15
+    21300032: mastery_level_sprite_450x300_16
+    21300034: mastery_level_sprite_450x300_17
+    21300036: mastery_level_sprite_450x300_18
+    21300038: mastery_level_sprite_450x300_19
+    21300040: mastery_level_sprite_450x300_20
+    21300042: mastery_level_sprite_450x300_21
+    21300044: mastery_level_sprite_450x300_22
+    21300046: mastery_level_sprite_450x300_23
+    21300048: mastery_level_sprite_450x300_24
+    21300050: mastery_level_sprite_450x300_25
+    21300052: mastery_level_sprite_450x300_26
+    21300054: mastery_level_sprite_450x300_27
+    21300056: mastery_level_sprite_450x300_28
+    21300058: mastery_level_sprite_450x300_29
+    21300060: mastery_level_sprite_450x300_30
+    21300062: mastery_level_sprite_450x300_31
+    21300064: mastery_level_sprite_450x300_32
+    21300066: mastery_level_sprite_450x300_33
+    21300068: mastery_level_sprite_450x300_34
+    21300070: mastery_level_sprite_450x300_35
+    21300072: mastery_level_sprite_450x300_36
+    21300074: mastery_level_sprite_450x300_37
+    21300076: mastery_level_sprite_450x300_38
+    21300078: mastery_level_sprite_450x300_39
+    21300080: mastery_level_sprite_450x300_40
+    21300082: mastery_level_sprite_450x300_41
+    21300084: mastery_level_sprite_450x300_42
+    21300086: mastery_level_sprite_450x300_43
+    21300088: mastery_level_sprite_450x300_44
+    21300090: mastery_level_sprite_450x300_45
+    21300092: mastery_level_sprite_450x300_46
+    21300094: mastery_level_sprite_450x300_47
+    21300096: mastery_level_sprite_450x300_48
+    21300098: mastery_level_sprite_450x300_49
+    21300100: mastery_level_sprite_450x300_50
+    21300102: mastery_level_sprite_450x300_51
+    21300104: mastery_level_sprite_450x300_52
+    21300106: mastery_level_sprite_450x300_53
+    21300108: mastery_level_sprite_450x300_54
+    21300110: mastery_level_sprite_450x300_55
+    21300112: mastery_level_sprite_450x300_56
+    21300114: mastery_level_sprite_450x300_57
+    21300116: mastery_level_sprite_450x300_58
+    21300118: mastery_level_sprite_450x300_59
+    21300120: mastery_level_sprite_450x300_60
+    21300122: mastery_level_sprite_450x300_61
+    21300124: mastery_level_sprite_450x300_62
+    21300126: mastery_level_sprite_450x300_63
+    21300128: mastery_level_sprite_450x300_64
+    21300130: mastery_level_sprite_450x300_65
+    21300132: mastery_level_sprite_450x300_66
+    21300134: mastery_level_sprite_450x300_67
+    21300136: mastery_level_sprite_450x300_68
+    21300138: mastery_level_sprite_450x300_69
+    21300140: mastery_level_sprite_450x300_70
+    21300142: mastery_level_sprite_450x300_71
+    21300144: mastery_level_sprite_450x300_72
+    21300146: mastery_level_sprite_450x300_73
+    21300148: mastery_level_sprite_450x300_74
+    21300150: mastery_level_sprite_450x300_75
+    21300152: mastery_level_sprite_450x300_76
+    21300154: mastery_level_sprite_450x300_77
+    21300156: mastery_level_sprite_450x300_78
+    21300158: mastery_level_sprite_450x300_79
+    21300160: mastery_level_sprite_450x300_80
+    21300162: mastery_level_sprite_450x300_81
+    21300164: mastery_level_sprite_450x300_82
+    21300166: mastery_level_sprite_450x300_83
+    21300168: mastery_level_sprite_450x300_84
+    21300170: mastery_level_sprite_450x300_85
+    21300172: mastery_level_sprite_450x300_86
+    21300174: mastery_level_sprite_450x300_87
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: mastery_level_sprite_450x300_0
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2400
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_1
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2400
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_2
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2400
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_3
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2400
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_4
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2400
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_5
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2400
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_6
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2400
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_7
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2400
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_8
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 2400
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2100
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_10
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 2100
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_11
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2100
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_12
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 2100
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_13
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2100
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_14
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 2100
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_15
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2100
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_16
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 2100
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_17
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2100
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_18
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 2100
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_20
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1800
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_21
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1800
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_22
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1800
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_23
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1800
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_24
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1800
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_25
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1800
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_26
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1800
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_27
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1800
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_28
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 1800
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1500
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_30
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1500
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_31
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1500
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_32
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1500
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_33
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1500
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_34
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1500
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_35
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1500
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_36
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1500
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_37
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1500
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_38
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 1500
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_40
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 1200
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_41
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1200
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_42
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 1200
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_43
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1200
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_44
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 1200
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_45
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1200
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_46
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 1200
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_47
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1200
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_48
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 1200
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_50
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 900
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_51
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 900
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_52
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 900
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_53
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 900
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_54
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 900
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_55
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 900
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_56
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 900
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_57
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 900
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_58
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 900
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_60
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 600
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_61
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 600
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_62
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 600
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_63
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 600
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_64
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 600
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_65
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 600
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_66
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 600
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_67
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 600
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_68
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 600
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_70
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 300
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_71
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 300
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_72
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 300
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_73
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 300
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_74
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 300
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_75
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 300
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_76
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 300
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_77
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 300
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_78
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 300
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_79
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_80
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_81
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_82
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_83
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_84
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_85
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_86
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 0
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mastery_level_sprite_450x300_87
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 450
+        height: 300
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

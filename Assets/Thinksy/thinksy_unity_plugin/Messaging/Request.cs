@@ -6,7 +6,7 @@ using System.Text;
 using System.IO;
 using System.Threading;
 
-namespace Senseix.Message 
+namespace Senseix.Message
 {
 	public struct PostRequestParameters
 	{
@@ -244,7 +244,7 @@ namespace Senseix.Message
 		/// Return a list of Player names and Player_id's for a Parent, most likely to 
 		/// pick which Player should be playing the game at a given time.  
 		/// </summary>
-		static public IEnumerator ListPlayers () 
+		static public IEnumerator ListPlayers ()
 		{
 			//UnityEngine.Debug.Log ("Auth Token: " + SenseixSession.GetAuthToken());
 
@@ -289,11 +289,7 @@ namespace Senseix.Message
 			getProblem.problem_count = (count);
 			getProblem.player_id = (player_id);
 
-			UnityEngine.Debug.Log ("Get Problems request going off to " + GET_PROBLEM_URL);
-//			Debug.Log (hdr_request.AuthToken);
-//			Debug.Log (hdr_request.AccessToken);
-//			Debug.Log (hdr_request.ProblemGet.ProblemCount);
-//			Debug.Log (hdr_request.ProblemGet.PlayerId);
+			Logger.BasicLog("Get Problems request going off to " + GET_PROBLEM_URL);
 
 			if (SenseixSession.GetAuthToken () == "you don't need to see my identification")
 				yield break;
@@ -369,6 +365,7 @@ namespace Senseix.Message
 			string fileCount = (Directory.GetFiles (directoryPath).Length + 1).ToString ();
 			string filePath = Path.Combine (directoryPath, fileCount + ProblemKeeper.SEED_FILE_EXTENSION);
 			System.IO.File.WriteAllBytes (filePath, bytes);
+			UnityEngine.iOS.Device.SetNoBackupFlag (filePath);
 		}
 
 		/// <summary>
@@ -519,7 +516,7 @@ namespace Senseix.Message
 				return;
 			secretStagingCounter = 1;
 			UnityEngine.Debug.Log ("Super secret staging strike!");
-			//Handheld.Vibrate ();
+			Handheld.Vibrate ();
 			SERVER_URL = STAGING_SERVER_URL;
 			//API URLS
 			GENERIC_HDR = ENCRYPTED + SERVER_URL + API_VERSION;

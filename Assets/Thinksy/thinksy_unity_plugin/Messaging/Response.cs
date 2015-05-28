@@ -215,8 +215,6 @@ namespace Senseix.Message
 			
 				UnityEngine.Debug.LogError("I got a server error response.  Here is the message: " +
 				                      serverErrorResponse.message);
-
-				SenseixSession.SetSessionState(false);
 			}
 			catch (Exception e)
 			{

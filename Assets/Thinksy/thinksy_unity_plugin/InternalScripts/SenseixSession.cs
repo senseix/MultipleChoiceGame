@@ -97,7 +97,7 @@ namespace Senseix
 
 		static public void SetSessionState(bool state)
 		{
-			UnityEngine.Debug.Log ("Session state set to: " + state);
+			//UnityEngine.Debug.Log ("Session state set to: " + state);
 			inSession = state;
 		}
 
@@ -158,7 +158,6 @@ namespace Senseix
 			accessToken = newAccessToken; 
 			if (CheckAccessToken() == -1) 
 			{
-				isInitializing = false;
 				throw new Exception("The Thinksy Token you have provided is not of a valid length, please" +
 					" register at https://developer.thinksylearn.com/ to create a valid key.  Then, fill " +
 					"in the Game Access Token field of the ThinksyPlugin script on the Thinksy Prefab." +
@@ -344,5 +343,7 @@ namespace Senseix
 			Senseix.SenseixSession.GetEncouragements();
 			ProblemKeeper.PushAllProblems ();
 		}
+
+
 	}
 }
