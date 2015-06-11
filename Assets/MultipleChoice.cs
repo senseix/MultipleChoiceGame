@@ -43,7 +43,7 @@ public class MultipleChoice : MonoBehaviour {
 		availableAnswers.Clear ();
 		ProblemPart[] wrongAnswers = new ProblemPart[answerButtonTexts.Length-1];
 
-		if (ThinksyPlugin.GetMostRecentProblem().CountDistractors() > wrongAnswers.Length)
+		if (ThinksyPlugin.GetMostRecentProblem().CountDistractors() >= wrongAnswers.Length)
 		{
 			wrongAnswers = ThinksyPlugin.GetMostRecentProblem().GetDistractors(wrongAnswers.Length);
 		}
