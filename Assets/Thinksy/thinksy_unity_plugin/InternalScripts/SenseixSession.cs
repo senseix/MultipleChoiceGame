@@ -9,8 +9,10 @@ using System.ComponentModel;
 
 namespace Senseix 
 {
+
 	class SenseixSession : MonoBehaviour
 	{
+
 		private const int ACCESS_TOKEN_LENGTH = 64;
 
 		private static bool inSession = false;
@@ -121,7 +123,26 @@ namespace Senseix
 
 		static public string GetDeviceID()
 		{
+			/*
+#if UNITY_WEBGL
+	     	string uuid = "undefined";
+		    //UnityEngine.Debug.Log("Duane, entering into the while loop");
+	     	string webGLGuidPath = "external_udid";  
+	        //UnityEngine.Debug.Log("Reading from " + webGLGuidPath);
+	    	if (System.IO.File.Exists(webGLGuidPath))
+     		{
+	     		uuid = System.IO.File.ReadAllText(webGLGuidPath);
+		  //  	UnityEngine.Debug.Log("uuid is : " + uuid);
+     		} 
+	    	else  
+	    	{
+		    	UnityEngine.Debug.Log("Still waiting for a identifier from the webserver.");
+	    	}
+		    return uuid.TrimEnd( '\r', '\n' );
+#endif
+*/
 			return SystemInfo.deviceUniqueIdentifier;
+
 		}
 
 		static public string GetAuthToken()
@@ -152,7 +173,20 @@ namespace Senseix
 				yield break;
 			}
 			isInitializing = true;
-
+			/*
+#if UNITY_WEBGL
+			Application.ExternalCall("setUdid", "undefined");
+			string uuid = "undefined";
+			uuid = GetDeviceID();
+			while (uuid == "undefined") 
+			{
+				//UnityEngine.Debug.Log("Waiting for loop to initialize");
+				yield return new WaitForSeconds(1);
+				uuid = GetDeviceID ();
+			}
+#endif
+*/
+			       
 			SetSessionState (true);
 
 			accessToken = newAccessToken; 
@@ -344,6 +378,11 @@ namespace Senseix
 			ProblemKeeper.PushAllProblems ();
 		}
 
-
+		public static void DoFileFlagging(string filePath)
+		{
+#if UNITY_IOS
+			UnityEngine.iOS.Device.SetNoBackupFlag(filePath);
+#endif
+		}
 	}
 }
