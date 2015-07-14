@@ -97,7 +97,10 @@ public class MultipleChoice : MonoBehaviour {
 	private void SubmitAnswers()
 	{
 		if (ThinksyPlugin.GetMostRecentProblem().SubmitAnswer())
+		{
 			AudioManager.audioManager.PlaySuccess();
+			CorrectLight.LightShow();
+		}
 		else
 			AudioManager.audioManager.PlayFailure();
 		NextProblem();

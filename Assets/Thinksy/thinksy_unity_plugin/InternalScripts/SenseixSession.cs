@@ -121,6 +121,24 @@ namespace Senseix
 
 		static public string GetDeviceID()
 		{
+			#if UNITY_WEBGL
+			string webGLGuidPath = System.IO.Path.Combine (Application.persistentDataPath, "unity_plugin_udid");
+			Guid guid = Guid.NewGuid ();
+			if (System.IO.File.Exists(webGLGuidPath))
+			{
+				byte[] readGuidBytes = System.IO.File.ReadAllBytes(webGLGuidPath);
+				guid = new Guid(readGuidBytes);
+			}
+			else
+			{
+				byte[] writeGuidBytes = guid.ToByteArray();
+				System.IO.File.WriteAllBytes(webGLGuidPath, writeGuidBytes); 
+			}
+			string guid_str = guid.ToString();
+			Debug.Log (guid_str);
+			Application.ExternalCall ("setUdid", guid_str);
+			return guid_str;
+			#endif
 			return SystemInfo.deviceUniqueIdentifier;
 		}
 
@@ -344,6 +362,11 @@ namespace Senseix
 			ProblemKeeper.PushAllProblems ();
 		}
 
-
+		public static void DoFileFlagging(string filePath)
+		{
+#if UNITY_IOS
+			UnityEngine.iOS.Device.SetNoBackupFlag(filePath);
+#endif
+		}
 	}
 }
