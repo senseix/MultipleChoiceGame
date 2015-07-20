@@ -50,16 +50,14 @@ public class ThinksyQuestionDisplay : MonoBehaviour
 	/// <param name="problemToDisplay">Problem to display.</param>
 	public void DisplayProblem(Problem problemToDisplay)
 	{
-		Debug.Log ("display problem");
 		ClearRichTextAreas ();
 		PopulateRichTextAreas (problemToDisplay);
-
 		InvokeCategoryAdvancementIfNeeded (problemToDisplay);
 	}
 
 	private void InvokeCategoryAdvancementIfNeeded(Problem problemToDisplay)
 	{
-		Debug.Log ("new: " + problemToDisplay.GetCategoryNumber () + " old: " + displayedCategoryNumber);
+		//Debug.Log ("new: " + problemToDisplay.GetCategoryNumber () + " old: " + displayedCategoryNumber);
 		if (problemToDisplay.GetCategoryNumber() > displayedCategoryNumber)
 		{
 			ThinksyEvents.InvokeCategoryAdvancement();
@@ -90,7 +88,7 @@ public class ThinksyQuestionDisplay : MonoBehaviour
 
 		if (textAreaCount == 0)
 		{
-			Debug.LogWarning("I got a problem with no question atoms.");
+			Senseix.Logger.BasicLog("I got a problem with no question atoms.");
 			return;//throw new UnityException ("I got a problem with no question atoms.");
 		}
 		richTextAreas = new GameObject[textAreaCount];

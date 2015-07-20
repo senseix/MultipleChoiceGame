@@ -28,6 +28,10 @@ class ThinksyPlugin : MonoBehaviour
 	{
 		if (singletonInstance == null)
 		{
+			singletonInstance = FindObjectOfType<ThinksyPlugin>();
+		}
+		if (singletonInstance == null)
+		{
 			throw new Exception("Please drag the Thinksy prefab located in " +
 				"thinsy_unity_plugin/prefabs into your object heierarchy");
 		}
@@ -69,10 +73,10 @@ class ThinksyPlugin : MonoBehaviour
 			                  "instance in existance.  There should only be one SenseixPlugin component at any " +
 			                  "time.  You can access its features \nthrough the class's static methods.   The object this message is coming" +
 			                  " from is redundant.  I'm going to delete myself.");
-			Destroy(gameObject);
+			//Destroy(gameObject);
 		}
 
-		singletonInstance = this;
+		//singletonInstance = this;
 
 		if (testingMode)
 		{

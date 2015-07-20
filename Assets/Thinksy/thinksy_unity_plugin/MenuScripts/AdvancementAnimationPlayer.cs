@@ -3,8 +3,8 @@ using System.Collections;
 
 public class AdvancementAnimationPlayer : MonoBehaviour {
 
-	//public ParticleSystem particleSystemToPlay;
-	public Animator animatorToPlay;
+	public ParticleSystem particleSystemToPlay;
+	//public Animator animatorToPlay;
 
 	void OnEnable()
 	{
@@ -18,7 +18,7 @@ public class AdvancementAnimationPlayer : MonoBehaviour {
 
 	public void PlayAnimation()
 	{
-		Debug.Log ("on advance category invoked");
-		animatorToPlay.Play ("newLevel");
+//		particleSystemToPlay.Play ();
+		//animatorToPlay.Play (0);
 	}
 }
